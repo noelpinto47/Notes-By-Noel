@@ -12,9 +12,6 @@ permalink: /
 A cozy corner of the internet where I share notes, insights, and resources from my technological journey.
 {: .fs-6 .fw-300 }
 
-[Get Started](#about-this-site){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Explore Topics](#exploring-the-topics){: .btn .fs-5 .mb-4 .mb-md-0 }
-
 ---
 
 ## About This Site
