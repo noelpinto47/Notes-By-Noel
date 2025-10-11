@@ -1,0 +1,37 @@
+title: "Notes By Noel"
+description: "A collection of my notes on various topics."
+theme: just-the-docs
+url: https://github.com/noelpinto47/notes-by-noel.git
+baseurl: "" # leave empty unless hosting in subdirectory
+
+# Search configuration
+search_enabled: true
+search:
+  button: true
+
+# Navigation configuration
+nav_sort: case_insensitive
+
+# Footer content
+footer_content: "Made with ☕ and curiosity | © 2025 Notes By Noel"
+
+# Color scheme - custom warm green theme
+color_scheme: warm_green
+
+# Enable auxiliary links
+aux_links:
+  "View on GitHub":
+    - "https://github.com/noelpinto47/notes-by-noel"
+
+# Heading anchors
+heading_anchors: true
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Collections
+collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true

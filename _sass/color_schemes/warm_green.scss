@@ -1,0 +1,75 @@
+// Warm Green Color Scheme
+// A soothing, educational theme with soft green tones
+
+// Primary colors - Warm sage greens
+$green-000: #f5f9f5;      // Very light mint - backgrounds
+$green-100: #e8f4e8;      // Light sage - subtle backgrounds
+$green-200: #c8e6c8;      // Soft green - highlights
+$green-300: #91d091;      // Medium sage - accents
+$green-400: #5fa85f;      // Warm green - primary actions
+$green-500: #4a8f4a;      // Deep sage - primary text links
+$green-600: #3a7a3a;      // Forest green - hover states
+$green-700: #2d5f2d;      // Dark green - emphasis
+
+// Neutral colors - Warm grays with subtle green undertones
+$grey-lt-000: #fafbfa;
+$grey-lt-100: #f4f5f4;
+$grey-lt-200: #e8e9e8;
+$grey-lt-300: #d5d8d5;
+
+$grey-dk-000: #6e736e;
+$grey-dk-100: #5a5e5a;
+$grey-dk-200: #44484a;
+$grey-dk-250: #363a3c;
+$grey-dk-300: #2d3133;
+
+// Body and background
+$body-background-color: $green-000;
+$sidebar-color: $grey-lt-000;
+$body-text-color: $grey-dk-300;
+$body-heading-color: $grey-dk-300;
+
+// Links
+$link-color: $green-500;
+$link-hover-color: $green-600;
+
+// Code
+$code-background-color: $green-100;
+$code-color: $green-700;
+
+// Navigation
+$nav-child-link-color: $grey-dk-100;
+$nav-list-expander-color: $green-400;
+
+// Search
+$search-background-color: $grey-lt-000;
+$search-result-preview-color: $grey-dk-000;
+
+// Buttons
+$btn-primary-color: $green-500;
+
+// Borders
+$border-color: $green-200;
+
+// Feedback colors - softened
+$green: #4a8f4a;
+$blue: #5b9abd;
+$yellow: #d4a944;
+$red: #c85a54;
+$purple: #9370a8;
+
+// Feedback backgrounds
+$feedback-color: mix($green, white, 10%);
+
+// Table colors
+$table-background-color: $grey-lt-000;
+$table-header-background-color: $green-100;
+
+// Labels
+$label-primary: $green-500;
+$label-info: $blue;
+$label-warning: $yellow;
+
+// Blockquotes
+$blockquote-border-color: $green-300;
+$blockquote-background-color: $green-100;
