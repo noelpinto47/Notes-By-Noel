@@ -1,8 +1,8 @@
 title: "Notes By Noel"
 description: "A collection of my notes on various topics."
 remote_theme: just-the-docs/just-the-docs
-url: https://github.com/noelpinto47/notes-by-noel.git
-baseurl: "" # leave empty unless hosting in subdirectory
+url: https://noelpinto47.github.io
+baseurl: "/Notes-By-Noel" # the subpath of your site, e.g. /blog
 
 # Search configuration
 search_enabled: true
@@ -31,7 +31,8 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 # Favicon
-favicon_ico: "/assets/images/favicon.ico"
+favicon_ico: "/Notes-By-Noel/assets/images/favicon.ico"
 
-# Custom head content
-head: <link rel="stylesheet" href="/assets/css/custom.css">
+# Include _pages directory for Just the Docs
+include:
+  - _pages
