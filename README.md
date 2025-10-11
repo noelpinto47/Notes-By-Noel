@@ -1,3 +1,5 @@
+🌐 **Live Site:** [https://noelpinto47.github.io/Notes-By-Noel/](https://noelpinto47.github.io/Notes-By-Noel/)
+
 # Notes By Noel 🌱
 
 A warm, welcoming documentation site where I document my technological journey. Built with Jekyll and the Just the Docs theme, featuring a soothing green color palette designed for comfortable reading and learning.
