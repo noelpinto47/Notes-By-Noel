@@ -50,7 +50,7 @@ This is my personal knowledge base—a collection of notes, resources, and insig
 
 ### Making Changes
 
-1. Add new documentation files in the `_docs/` directory
+1. Add new documentation files in the `_pages/` directory
 2. Use proper front matter for navigation:
    ```yaml
    ---
@@ -63,21 +63,55 @@ This is my personal knowledge base—a collection of notes, resources, and insig
 
 3. Save and the site will auto-reload (if using `--livereload`)
 
+## 🚀 Deployment
+
+### GitHub Pages (Recommended)
+
+This site is configured for automatic deployment to GitHub Pages:
+
+1. **Push to GitHub**:
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
+   ```
+
+2. **Enable GitHub Pages**:
+   - Go to your repository on GitHub
+   - Navigate to **Settings** → **Pages**
+   - Select **GitHub Actions** as the source
+   - The site will automatically deploy and be available at `https://[username].github.io/notes-by-noel`
+
+3. **Automatic Deployment**:
+   - The GitHub Actions workflow (`.github/workflows/pages.yml`) will automatically build and deploy your site on every push to the `main` branch
+   - No manual intervention required!
+
+### Manual Deployment
+
+If you prefer to deploy manually:
+
+1. Build the site:
+   ```bash
+   bundle exec jekyll build
+   ```
+
+2. Deploy the `_site` folder contents to your hosting provider
+
 ## 📁 Project Structure
 
 ```
 notes-by-noel/
-├── _config.yml              # Site configuration
-├── _docs/                   # Documentation pages
+├── _config.yml                 # Site configuration
+├── _pages/                     # Documentation pages
 │   ├── getting-started.md
 │   └── programming/
 │       ├── index.md
 │       └── python-basics.md
-├── _sass/                   # Custom styles
+├── _sass/                      # Custom styles
 │   ├── color_schemes/
-│   │   └── warm_green.scss # Custom color theme
+│   │   └── warm_green.scss    # Custom color theme
 │   └── custom/
-│       └── custom.scss      # Additional custom styles
+│       └── custom.scss         # Additional custom styles
 ├── index.md                 # Homepage
 └── README.md               # This file
 ```

@@ -1,6 +1,6 @@
 title: "Notes By Noel"
 description: "A collection of my notes on various topics."
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 url: https://github.com/noelpinto47/notes-by-noel.git
 baseurl: "" # leave empty unless hosting in subdirectory
 
