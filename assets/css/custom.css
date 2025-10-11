@@ -1,0 +1,225 @@
+/* Custom styles for Notes By Noel */
+/* Adding warmth and personality to the documentation */
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Headings with a friendly feel */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* Welcome heading special styling */
+.fs-9 {
+  background: linear-gradient(135deg, #4a8f4a 0%, #5fa85f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Softer blockquotes */
+blockquote {
+  border-left: 4px solid #91d091;
+  background-color: #f5f9f5;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 4px;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* Code blocks with softer appearance */
+code {
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+  font-size: 0.9em;
+}
+
+pre {
+  border-radius: 6px;
+  border: 1px solid #c8e6c8;
+}
+
+/* Buttons with more warmth */
+.btn {
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(74, 143, 74, 0.2);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #4a8f4a 0%, #5fa85f 100%);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #3a7a3a 0%, #4a8f4a 100%);
+}
+
+/* Navigation enhancements */
+.nav-list .nav-list-item {
+  transition: background-color 0.2s ease;
+}
+
+.nav-list .nav-list-item:hover {
+  background-color: #f5f9f5;
+}
+
+/* Search box styling */
+.search-input {
+  border-radius: 8px;
+  border: 2px solid #e8f4e8;
+  transition: border-color 0.2s ease;
+}
+
+.search-input:focus {
+  border-color: #91d091;
+  box-shadow: 0 0 0 3px rgba(145, 208, 145, 0.1);
+}
+
+/* Footer styling */
+.site-footer {
+  background-color: #f5f9f5;
+  border-top: 2px solid #e8f4e8;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+/* Links with smooth transitions */
+a {
+  transition: color 0.2s ease;
+}
+
+/* Tables with softer appearance */
+table {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+table thead {
+  background: linear-gradient(180deg, #e8f4e8 0%, #c8e6c8 100%);
+}
+
+table tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+table tbody tr:hover {
+  background-color: #f5f9f5;
+}
+
+/* Labels with rounded corners */
+.label {
+  border-radius: 4px;
+  padding: 0.2em 0.6em;
+  font-weight: 500;
+}
+
+/* Add a subtle texture to the main content area */
+.main-content {
+  background-image:
+    radial-gradient(circle at 100% 150%, rgba(145, 208, 145, 0.03) 24%, transparent 24%),
+    radial-gradient(circle at 0% 100%, rgba(145, 208, 145, 0.03) 24%, transparent 24%);
+  background-size: 3em 3em;
+  background-position: 0 0, 1.5em 1.5em;
+}
+
+/* Smooth animations for navigation */
+.nav-list-item > .nav-list {
+  transition: max-height 0.3s ease-in-out;
+}
+
+/* Emoji styling for consistency */
+.emoji {
+  font-style: normal;
+}
+
+/* Special styling for the last updated text */
+em {
+  color: #5a5e5a;
+}
+
+/* Warm Green Color Scheme Overrides */
+/* Override default Just the Docs colors with our warm green theme */
+
+:root {
+  --body-background-color: #f5f9f5;
+  --sidebar-color: #fafbfa;
+  --body-text-color: #2d3133;
+  --body-heading-color: #2d3133;
+  --link-color: #4a8f4a;
+  --link-hover-color: #3a7a3a;
+  --code-background-color: #e8f4e8;
+  --code-color: #2d5f2d;
+  --nav-child-link-color: #5a5e5a;
+  --nav-list-expander-color: #5fa85f;
+  --search-background-color: #fafbfa;
+  --search-result-preview-color: #6e736e;
+  --btn-primary-color: #4a8f4a;
+  --border-color: #c8e6c8;
+  --table-background-color: #fafbfa;
+  --table-header-background-color: #e8f4e8;
+  --blockquote-border-color: #91d091;
+  --blockquote-background-color: #f5f9f5;
+}
+
+/* Apply the color variables to the actual CSS */
+body {
+  background-color: var(--body-background-color);
+  color: var(--body-text-color);
+}
+
+.site-nav {
+  background-color: var(--sidebar-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+code, pre {
+  background-color: var(--code-background-color);
+  color: var(--code-color);
+}
+
+.nav-list-link, .nav-list-expander {
+  color: var(--nav-child-link-color);
+}
+
+.nav-list-expander {
+  color: var(--nav-list-expander-color);
+}
+
+.search-input {
+  background-color: var(--search-background-color);
+}
+
+.btn-primary {
+  background-color: var(--btn-primary-color);
+  border-color: var(--btn-primary-color);
+}
+
+table {
+  background-color: var(--table-background-color);
+}
+
+table thead {
+  background-color: var(--table-header-background-color);
+}
+
+blockquote {
+  border-left-color: var(--blockquote-border-color);
+  background-color: var(--blockquote-background-color);
+}

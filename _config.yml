@@ -33,5 +33,5 @@ back_to_top_text: "Back to top"
 # Favicon
 favicon_ico: "/assets/images/favicon.ico"
 
-include:
-  - _pages
+# Custom head content
+head: <link rel="stylesheet" href="/assets/css/custom.css">
