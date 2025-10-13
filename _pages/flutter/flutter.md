@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Flutter
-nav_order: 1
+nav_order: 2
 description: "Google's UI toolkit for building beautiful, natively compiled applications"
 ---
 

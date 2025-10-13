@@ -12,6 +12,8 @@ search:
 # Navigation configuration
 nav_sort: case_insensitive
 nav:
+  - title: "Home"
+    url: /
   - title: "Flutter"
     url: /flutter/
 
