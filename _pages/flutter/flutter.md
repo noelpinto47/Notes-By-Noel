@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Flutter
-parent: Mobile Development
 nav_order: 1
 description: "Google's UI toolkit for building beautiful, natively compiled applications"
 ---

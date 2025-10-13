@@ -2,7 +2,6 @@
 layout: default
 title: Flutter Best Practices
 parent: Flutter
-grand_parent: Mobile Development
 nav_order: 1
 description: "Essential best practices for writing clean, maintainable Flutter code"
 ---

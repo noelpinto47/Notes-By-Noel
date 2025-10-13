@@ -11,6 +11,9 @@ search:
 
 # Navigation configuration
 nav_sort: case_insensitive
+nav:
+  - title: "Flutter"
+    url: /flutter/
 
 # Footer content
 footer_content: "Made with ☕ and curiosity | © 2025 Notes By Noel"
