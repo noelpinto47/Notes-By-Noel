@@ -128,15 +128,6 @@ The warm green theme is defined in `_sass/color_schemes/warm_green.scss`. Key co
 
 Additional styling customizations are in `_sass/custom/custom.scss`.
 
-## 📝 Contributing
-
-While this is a personal documentation site, suggestions and corrections are welcome!
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
 ## 📄 License
 
 This project is open source and available under the MIT License.
